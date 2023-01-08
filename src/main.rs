@@ -1,5 +1,7 @@
+mod arrays;
+
 fn main() {
-  
+        arrays::arrays();
         // Create an array of integers with 5 elements
         let arr = [1, 2, 3, 4, 5];
     
@@ -14,8 +16,6 @@ fn main() {
         // Create an array of strings with 3 elements
         let names = ["Alice", "Bob", "Charlie"];
     
-        // Modify an element of the array
-        names[1] = "Bobby";
     
         // Get the length of the array
         println!("The array has {} elements", names.len());
